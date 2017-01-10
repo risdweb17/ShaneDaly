@@ -18,7 +18,7 @@ body {
     padding: 12px 16px;
 }
 .dropdown1:hover .dropdown-education {
-	display: block;
+	display: inline;
 }
 </style>
 .dropdown2 {
@@ -34,7 +34,7 @@ body {
     padding: 12px 16px;
 }
 .dropdown2:hover .dropdown-experience {
-	display: block;
+	display: inline;
 }
 </style>
 <style>
@@ -50,8 +50,8 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
 }
-.dropdown2:hover .dropdown-experience {
-	display: block;
+.dropdown3:hover .dropdown-experience {
+	display: inline;
 }
 </style>
 }
