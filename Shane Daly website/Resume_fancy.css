@@ -4,7 +4,11 @@ body {
 	background-repeat: no-repeat;
 	text-align: center;
 }
-<style>
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 100px
+	text-align: center; 
+}
 .dropdown1 {
 	position: relative;
     display: inline-block;
@@ -20,7 +24,6 @@ body {
 .dropdown1:hover .dropdown-education {
 	display: inline;
 }
-</style>
 .dropdown2 {
 	position: relative;
     display: inline-block;
@@ -36,8 +39,6 @@ body {
 .dropdown2:hover .dropdown-experience {
 	display: inline;
 }
-</style>
-<style>
 .dropdown3 {
 	position: relative;
     display: inline-block;
@@ -53,12 +54,7 @@ body {
 .dropdown3:hover .dropdown-experience {
 	display: inline;
 }
-</style>
-}
-h1 {
-	font-family: Helvetica;
-	text-align: center; 
-}
+
  div {
  	width:10 
  	height:5
