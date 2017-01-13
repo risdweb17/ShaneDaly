@@ -1,0 +1,37 @@
+ul li {
+	color: #B9770E;
+}
+ol li {
+	color: #D35400;
+}
+.green {
+	color: green;
+}
+body{
+	text-align: center;
+	background-image: url("http://aytigo.com/wp-content/uploads/2016/09/Fancy-chef-kitchen-appliances-on-Home-Design-Ideas-With-chef-kitchen-appliances.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+ul {
+	list-style-position: inside;
+}
+ol {
+	list-style-position: inside;
+}
+.portion{ 
+	width: 15%;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: auto;
+    background-color: #F8F9F9
+}
+.filling{
+	width: 15%;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: auto;
+    background-color: #F8F9F9
+}
