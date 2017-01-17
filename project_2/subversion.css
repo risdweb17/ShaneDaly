@@ -1,0 +1,62 @@
+body {
+	background-image: url(images/don_bar.jpg);
+}
+.navbar{
+	list-style: none;
+	position: fixed center;
+	margin: 0px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #282727;
+	font-family: Courier;
+	border-radius: 5px;
+	box-shadow: 0px 10px 10px 10px #161616;
+}
+li {
+	display: inline;
+}
+li a {
+	display: inline-block;
+	color: white;
+	background: none;
+	border:none;
+    float: right;
+    text-decoration: none;
+    margin: 30px 20px 30px;
+    font-size: 20px;
+}
+li a:hover{
+	background-color: #111;
+}
+.mad {
+	color: #a80524;
+}
+h1 {
+	float: left;
+	font-family: Arial;
+	color:white;
+	position: relative;
+	left: 20px;
+	text-shadow:5px 5px #161616;
+	font-size: 50px;
+
+}
+h1 img{
+	background-color: white;
+	border-radius: 3px;
+}
+.navbar:hover{
+    position: relative;
+    -webkit-animation-name: move;
+    -webkit-animation-duration: 4s;
+    animation-name: move;
+    animation-duration: 3s;
+    /*animation-fill-mode: forwards;
+    */
+}
+@keyframes move {
+    0%   {background-color:#282727; left:0px; top:0px;}
+    20%  {background-color:#282727; left:500px; top:0px;}
+    50%  {background-color:#282727; left:500px; top:500px;}
+    70%  {background-color:#282727; left:0px; top:500px;}
+    100% {background-color:#282727; left:0px; top:0px;}
