@@ -51,12 +51,12 @@ h1 img{
     -webkit-animation-duration: 4s;
     animation-name: move;
     animation-duration: 3s;
-    /*animation-fill-mode: forwards;
-    */
+    animation-fill-mode: forwards;
+    
 }
 @keyframes move {
     0%   {background-color:#282727; left:0px; top:0px;}
     20%  {background-color:#282727; left:500px; top:0px;}
     50%  {background-color:#282727; left:500px; top:500px;}
     70%  {background-color:#282727; left:0px; top:500px;}
-    100% {background-color:#282727; left:0px; top:0px;}
+    100% {background-color:#282727; left:0px; top:500px;}
