@@ -39,6 +39,16 @@ a {
 a:hover {
 	background-color: #ef1f80;
 }
+.flex-container{
+	column-count: 3;
+	column-gap: 20px;
+	-webkit-columns: 500px 3;
+	position: absolute;
+	padding-left: 50px;
+}
+iframe {
+	position: relative;
+}
 /*
 .image_box {
 	margin-left: 150px;

@@ -39,6 +39,10 @@ a {
 a:hover {
 	background-color: #ef1f80;
 }
+.flex-container {
+	min-height: 300px;
+	width:150px;
+}
 /*
 .image_box {
 	margin-left: 150px;

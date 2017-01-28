@@ -4,8 +4,8 @@
 	height: 100%;
 }
 body{
-	background-image: url(images/background_images/home/6.jpg);
-	background-size: cover;
+margin: 0;
+padding: 0;
 }
 header {
 	 padding: 1em;
@@ -13,6 +13,18 @@ header {
     background-color: black;
     clear: left;
     text-align: center;
+
+}
+#prof .container {
+	height: 500px;
+	width: 500px;
+	float: right;
+	padding-top: 10em;
+}
+img {
+	height: 100%;
+	width: 100%;
+}	
 
 }
 h1 {
@@ -61,3 +73,16 @@ iframe{
 	box-shadow: 10px;
 }
 */
+
+
+@media screen and (max-width: 600px){
+	header{
+		background-color: yellow;
+	}
+
+	.nav{
+		display: none;
+	}
+
+
+}
