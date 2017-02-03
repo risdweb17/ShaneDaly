@@ -1,0 +1,300 @@
+body{
+margin: 0;
+padding: 0;
+}
+header ul li {
+	position: relative;
+	float: left;
+ 	line-height: 55px;
+}
+.menu {
+	position: fixed;
+	background-color: black;
+	opacity: .3;
+	height: 55px;
+	width: 100%;
+	z-index: 999;
+
+}
+.menu:hover {
+	opacity: .8;
+	-webkit-transition: opacity .3s ease-in-out;
+	box-shadow: 0px 10px 20px #292a2b;
+}
+.header-menu {
+	color: white;
+}
+ul {
+	list-style: none;
+    margin: 0;
+    padding-left: 0px;
+    margin-left: 18%;
+}
+li {
+	
+	padding-left: 45px;
+	padding-right: 45px;
+	border-left: 1px solid grey;
+	align-content: center;
+}
+a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+
+}
+li.last {
+	padding-right: 40px;
+	border-right: 1px solid grey;
+}
+a:hover {
+	text-decoration: underline;
+}
+#intro{
+	height: 100vh;
+	width: 100%;
+	background: -webkit-linear-gradient(#302e2e, #f46542);
+	
+}
+#intro .content {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+	text-align: center;
+	color: #fff;
+}
+h1 {
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 100px;
+color: black;
+}
+h2 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 60px;
+	z-index: 999px;
+}
+.project p {
+	text-align: left;
+	max-width: 500px;
+	padding-left: 30px;
+}
+.project {
+		
+		text-align: center;
+		padding: 200px;
+		border-bottom: 1px #ebebeb solid;
+		opacity: 1;
+		transform: translateY(-30px);
+		transition: all .5s ease-out;
+		
+		
+}
+.project.fade-in {
+	opacity: 1;
+	transform: translateY(0);
+}
+div .project p {
+	
+}
+#sect02 h2{
+	margin: 0;
+}
+#sect02 {
+	position: relative;
+	background: #893276;
+	height:120vh;
+	margin: auto;
+
+}
+#sect02:nth-child(4) {
+	margin-left: 20%;
+
+}
+#sect03 {
+ background-color: #659652;
+ height: 110vh;
+}
+#sect04 {
+	height: 100vh;
+ 	background: -webkit-radial-gradient(circle, #6092c4, black);
+}
+#sect03 p {
+-webkit-column-count: 2;
+column-count: 2;
+max-width: 2000px;
+position: absolute;
+z-index: 999;
+margin-bottom: 0px;
+top: 80px;
+left: 40px;
+margin-top: 60px;
+}
+#sect03 h2{
+	margin-top: 100px;
+}
+.sect03Padding{
+	position: relative;
+	margin-top: -200px;
+}
+#sect05 {
+
+	background: -webkit-linear-gradient(-90deg, #6092c4, black);	
+
+}
+#sect05 p {
+	color: white
+}
+#sect06 {
+	background-color: white;
+
+
+}
+#main {
+	position: relative;
+	overflow-x: hidden;
+	background: -webkit-linear-gradient(top,#f46542,#893276,#659652,#6092c4,indigo,violet); 
+	
+}
+.cloud_1{
+	position: relative;
+	bottom: 0;
+    left:0;
+	z-index: -999;
+	align-content: center;
+	opacity: 0;
+}
+.clouds2 {
+	width: 100%;
+	position: absolute;
+	bottom: 600px;
+    left:0;
+	z-index: -100;
+
+}
+#marinetti1 {
+	width: 100%;
+	position: absolute;
+	left: 25%;
+	bottom: -4px;
+	z-index: 50;
+}
+#horseman {
+	position: absolute;
+	left: 700px;
+	bottom: 0;
+	z-index: -50;
+}
+#nomansland {
+	position: absolute;
+	left: 0px;
+	bottom: 0;
+	z-index: -800;
+}
+#sect04 p {
+ text-align: center;
+ margin-left: 27%;
+ max-width: 450px;
+ }
+#sect05 p {
+ text-align: center;
+ margin-left: 27%;
+ max-width: 450px;
+ }
+ #sect06 p {
+ text-align: center;
+ margin-left: 27%;
+ max-width: 450px;
+ }
+
+.marinetti2 {
+	position: absolute;
+	right: 30%;
+	bottom: 0px;
+	z-index: 80;
+}
+.marinetti-move {
+	position: absolute;
+	transition: all 3s ease-in-out;
+	-webkit-transform: translate(430px, 0px)
+}
+
+.musso-move {
+	position: absolute;
+	transition: all 3s ease-in-out;
+	-webkit-transform: translate(-450px, 0px)
+
+}
+.musso {
+	position: absolute;
+	left: 33%;
+	bottom: 0px;
+	z-index: 90;
+}
+.inactive{
+	opacity: 0;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+.active{
+	opacity: 1 !important; 
+	-webkit-transition: opacity .25s ease-in-out;
+}
+#fasces {
+	position: absolute;
+	bottom: 500px;
+    left: 300px;
+	z-index: 130;
+
+}
+#fasces_broken {
+	position: absolute;
+	top: -200px;
+	bottom: 0px;
+    left: 25%;
+	z-index: 100;
+	opacity: 0;
+}
+/*#plane {
+	position: fixed;
+	z-index: 90;
+	opacity: 1;
+	padding-top: 200px;
+}*/
+#Bombs {
+	position: absolute;
+	
+}
+.shells{
+	z-index: 900;
+	opacity: 1
+}
+.intro.fadeOut {
+	opacity: 0;
+}
+#bomb01 {
+position: absolute;
+
+
+
+}
+#bomb02 {
+	position: absolute;
+	
+	
+}
+#bomb03 {
+	position: absolute;
+
+	
+}
+#bomb04 {
+	position: absolute;
+	
+
+}
+#bomb05 {
+	position: absolute;
+
+
+}
