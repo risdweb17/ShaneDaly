@@ -47,25 +47,3 @@ a:hover {
 a:visited{
 	color: #ff7c26;
 }
-/*
-.image_box {
-	margin-left: 150px;
-}
-button {
-	background-color: grey;
-	border: none;
-	border-radius: 3px;
-}
-.back_button {
-	float: left;
-}
-.forward_button {
-	float: right;
-
-}
-iframe{
-	margin-left: -100px;
-	border-radius: 3px;
-	box-shadow: 10px;
-}
-*/
