@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	font-family: 'arial', sans-serif;
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0;
+}
+.navbar {
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	background-color: #e8e8e8;
+	border-bottom: 1px solid #cccccc;
+}
+.quickbar {
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	border-bottom: 1px solid #cccccc;
+}
+.directory {
+	position: absolute;
+    top: 111px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+	margin: 0;
+	background-color: white;
+	z-index: 1;
+
+}
+.content{
+	position: absolute;
+    top: 111px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+	margin: 0;
+	margin-left: 20%;
+	background-color: white;
+}
+.mail {
+	width: 100%;
+	height: 38px;
+	margin: 0;
+	border-bottom: 1px solid #cccccc;
+
+}
+h2 {
+	color: #e53a20;
+	margin-left: 1em;
+}
