@@ -1,0 +1,159 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+.section {
+  
+  font-size: 1em;
+  padding-top: 55px;
+}
+#callbacks-placeholder{
+  position:fixed;top:50px;left:50px;color:black;z-index:999;
+}
+
+/* Nab Bar */
+header ul li {
+  position: relative;
+  float: left;
+  line-height: 55px;
+}
+.menu {
+  position: fixed;
+  background-color: black;
+  opacity: .3;
+  height: 55px;
+  width: 100%;
+  z-index: 999;
+
+}
+.menu:hover {
+  opacity: .8;
+  -webkit-transition: opacity .3s ease-in-out;
+  box-shadow: 0px 10px 20px #292a2b;
+}
+.header-menu {
+  color: white;
+}
+ul {
+  list-style: none;
+    margin: 0;
+    padding-left: 0px;
+    margin-left: 13%;
+}
+li {
+  
+  padding-left: 45px;
+  padding-right: 45px;
+  border-left: 1px solid grey;
+  align-content: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+
+}
+li.last {
+  padding-right: 40px;
+  border-right: 1px solid grey;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* End of Nav Bar */
+
+/* Project */
+
+.project p {
+  text-align: left;
+  max-width: 700px;
+  padding-left: 30px;
+}
+.project {
+    
+    text-align: center;
+    padding: 200px;
+    border-bottom: 1px #ebebeb solid;
+    opacity: 1;
+    transform: translateY(-30px);
+    transition: all .5s ease-out;
+      
+}
+
+
+.project.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+div .project p {
+  
+}
+/* End of Project */
+
+/* Intro/Section 01 */
+#intro{
+  height: 100vh;
+  width: 100%;
+  background: -webkit-linear-gradient(#302e2e, #f46542);
+  
+}
+#intro .content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  text-align: center;
+  color: #fff;
+}
+h1 {
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 100px;
+color: black;
+
+/* Section 02 */
+
+#sect02 h2{
+  margin: 0;
+  }
+
+#sect02 {
+  position: relative;
+  background: #893276;
+  height:120vh;
+  margin: auto;
+  margin-top: 100px;
+}
+#sect02:nth-child(4) {
+  margin-left: 20%;
+}
+
+/* Section 03 */
+#sect03 {
+ background-color: #659652;
+ height: 110vh;
+}
+
+#sect03 p {
+column-count: 2;
+max-width: 2000px;
+position: absolute;
+z-index: 999;
+margin-bottom: 0px;
+top: 80px;
+left: 40px;
+margin-top: 60px;
+}
+
+#sect03 h2{
+  margin-top: 100px;
+}
+
+.sect03Padding{
+  position: relative;
+  margin-top: -200px;
+}
+
+
+
